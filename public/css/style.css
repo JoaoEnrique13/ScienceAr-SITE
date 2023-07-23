@@ -1,0 +1,782 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: #F6F6F6;
+}
+
+/*Início do Navbar*/
+header{
+    width: 100%;
+    min-height: 80px;
+    background: #542066;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0 100px;
+    box-shadow: 2px 2px 2px #6d6d6d;
+}
+
+.logo{
+    font-size: 28px!important;
+    font-family: 'Newsreader', sans-serif;
+    color: #F6F6F6;
+    text-decoration: none;
+}
+
+.s2{
+    display: none;
+}
+
+
+.nav-bar ul li a{
+    display: block;
+    font-family: 'Inter';
+    color: #F6F6F6;
+    font-size: 16px;
+    padding: 10px 25px!important;
+    transition: 0.2s;
+    margin: 0 5px;
+    text-decoration: none;
+    
+}
+
+.dropdown-item{
+    color: #000!important;
+}
+
+.button{
+    background: #370852!important;
+    /* display: block; */
+    font-family: 'Inter';
+    color: #F6F6F6;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: 0.2s;
+    margin: 0 5px;
+    text-decoration: none;
+    /* padding-top: 0px; */
+}
+
+.button:hover{
+    background: #310749;
+    display: block;
+    font-family: 'Inter';
+    color: #F6F6F6;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+/*Fim do Navbar*/
+
+/*Quiz*/
+
+main{
+    padding: 60px;
+    gap: 80px;
+    
+}
+ 
+.titulo{
+    font-family: 'Newsreader', sans-serif;
+    font-size: 40px;
+    line-height: 120%;
+    border-bottom: 0.4px solid #E6E6E6;
+    padding-bottom: 5px;
+    
+}
+
+/*Início dos Cards*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 16px;
+}
+
+.link-card-quiz{
+    text-decoration: none;
+}
+
+.card{
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px  #6d6d6d;
+    border-radius: 20px!important;
+}
+
+.link-card{
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: #E6E6E6;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: all 1s ease;
+}
+
+.card-image{
+    background-color: #542066;
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.card h2{
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+.card p{
+    padding-left: 10px;
+    padding-top: 0.4px;
+    color: #542066;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+}
+/*Fim dos Cards*/
+/*Fim do Quiz*/
+
+/*Início QuizPerguntas*/
+.tituloCentralizado{
+    font-family: 'Newsreader', sans-serif;
+    font-size: 40px;
+    font-weight: 540;
+    line-height: 120%;
+    border-bottom: 0.4px solid #E6E6E6;
+    padding-bottom: 5px;
+    display: flex;
+    text-align: center no-repeat;
+}
+
+.tituloCentralizado{
+    justify-content: center;
+    
+}
+
+.conteudoQuizPerguntas{
+    padding: 15px;
+    padding-bottom: 15px;
+    justify-content: center !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center no-repeat;
+    align-items: center;
+    
+}
+
+.Pergunta{
+    font-family: 'Inter', sans-serif;
+    font-weight: 750;
+    padding: 10px;
+    padding-top: 25px;
+    background-color: #F6F6F6;
+    border-radius: 24px;
+    border: 2px solid #cac8c8;
+    width: 750px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center !important;
+    
+}
+
+.progress-input{
+    accent-color: #542066!important;
+    width: 590px!important;
+    display: flex;
+}
+
+
+input.input-resposta:checked + .AlternativasRespostas{
+    background-color: #d6d6d6!important;
+    transform: scale(1.1);
+}
+
+.Respostas{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+   flex-direction: column;
+}
+
+.AlternativasRespostas{
+    font-family: 'Inter', sans-serif;
+    font-weight: 750;
+    padding: 10px;
+    padding-top: 25px;
+    padding-left: 50px;
+    background-color: #F6F6F6;
+    border-radius: 24px;
+    border: 2px solid #cac8c8;
+    width: 550px;
+    height: 70px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.AlternativasRespostas:hover{
+    background-color: #d6d6d6;
+}
+
+.AlternativasRespostas strong{
+    color: #542066;
+}
+
+.Proximo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn{
+    background-color: #370852;
+    color: #F6F6F6!important;
+    font-family: 'Inter', sans-serif;
+    justify-content: inherit;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #310749!important;
+}
+/*Fim QuizPerguntas*/
+
+/*Início dos Resultados*/
+.InformacoesResultado{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    padding-bottom: 15px;
+    padding-top: 65px;
+    justify-content: center !important;
+    flex-direction: column;
+    text-align: center no-repeat;
+    align-items: center;
+}
+
+.paragrafoResultados{
+    font-family: 'Inter', sans-serif;
+    font-weight: 582;
+}
+
+.btnResultados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 90px;
+    padding-top: 40px;
+}
+
+.imgResultados{
+    display: flex;
+    justify-content: center;
+}
+
+.imgResultadosBons{
+    width: 300px;
+    height: 300px;
+}
+
+.imgResultadosRuins{
+    width: 350px;
+    height: 300px;
+}
+/*Fim dos Resultados*/
+
+/*Início do cadastrar*/
+.titulo2{
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 50px;
+}
+
+
+.imgLogin{
+    background-image: url('../img/background.png');
+    background-size: contain;
+    height: 300px;
+    padding: 0.4px;
+}
+
+.bg-image{
+    background-image: url('../img/background.png');
+    background-size: contain;
+    height: 250px;
+}
+
+.cardLogin{
+    margin-top: -100px;
+    background: hsla(0, 0%, 100%, 0.8);
+    backdrop-filter: blur(30px);
+    box-shadow: 2px 2px 2px 2px #cac8c8;
+    width: 900px;
+    display: flex;
+}
+
+.form1{
+    width: 250px;
+    height: 35px;
+    background-color: #d9d9d998!important;
+    border-style: none;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.form1::-webkit-input-placeholder{
+    color: rgba(0, 0, 0, 0.651);
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+}
+
+.form{
+    width: 530px;
+    height: 35px;
+    background-color: #d9d9d998!important;
+    border-style: none;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.form::-webkit-input-placeholder{
+    color: rgba(0, 0, 0, 0.651);
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+}
+
+.btnRegistrar{
+    background: #370852!important;
+    color: #F6F6F6;
+    font-family: 'Inter', sans-serif;
+    justify-content: inherit;
+    border-style: none;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+
+.paragrafo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    
+}
+
+.imgLogo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgProfile{
+    width: 150px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 15%;
+}
+/*Fim do cadastrar*/
+
+/*Inicio da página Sobre Nós*/
+.img-rafiki{
+    float: left;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.subtitulo{
+    font-family: 'Newsreader', sans-serif;
+    font-size: 35px;
+    font-weight: 540px;
+    line-height: 120%;
+    border-bottom: 0.4px solid #AB6CC1;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.texto-quem-somos{
+    display: table-cell;
+    padding-top: 30px;
+    font-size: 100%;
+    font-family: Inter;
+    text-align: justify;
+}
+
+.titulo-ferramentas-objetivos{
+    font-family: 'Newsreader', sans-serif;
+    font-size: 35px;
+    font-weight: 540px;
+    line-height: 120%;
+    border-bottom: 0.4px solid #AB6CC1;
+    text-align: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+/*Inicio dos cards*/
+.card-group{
+    width: 80%;
+    margin-inline-start: 65px;
+    padding-top: 60px;
+}
+
+.alinha{
+    margin-inline-start: 120px;
+}
+
+.fundo-card{
+    background-color: #d6b0e6;
+    width: 100%;
+    height: 80%;
+}
+
+img{
+    padding-top: 30px;
+    /* height: 90%; 
+    width: 90% !important; */
+    padding-left: 30px;
+}
+
+.legenda{
+    color: #542066;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-align: center;
+}
+/*Término dos cards*/
+
+.titulo-home{
+    width: 500px;
+}
+.texto-objetivos,.titulo-home{
+    font-size: 100%;
+    font-family: 'Inter';
+    text-align: justify;
+    float: left;
+}
+
+.col-text-objetivo{
+    padding-top: 50px;
+}
+
+.img-cuate1, .img-astronaut{
+    display: table-cell;
+    float: right;
+    /* width: 40%; */
+    padding-bottom: 80px;
+}
+/*Fim da página Sobre Nós*/
+
+/*Inicio da página homepage*/
+.fundo-home{
+    background-image: url('../img/background_quadrado.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.cont-home{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content:space-between;
+}
+
+.img-astronaut{
+    margin-right: 70px;
+    margin-top: 40px;
+}
+
+.titulo-home, .subtitulo-home{
+    color: #F6F6F6;
+    text-align: center;
+    font-family: Newsreader;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 120%; 
+    letter-spacing: -1px;
+    /* margin-top: 100px; */
+    margin-left: 10%;
+}
+
+.subtitulo-home{
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    margin-top: 6px;
+    margin-left: 2px;
+}
+
+.btnSobreNos{
+    display: inline-flex;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background: #542066;
+    margin-top: 30px;  
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+}
+
+.btnSobreNos a{
+    text-decoration: none;
+}
+
+.btnSobreNos:hover{
+    background: #310749;
+}
+/*Fim da página homepage*/
+
+/*Inicio página RA*/
+.container-main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.titulo-ra, #titulo-raEd{
+    font-family: 'Newsreader', sans-serif;
+    font-size: 35px;
+    font-weight: 540px;
+    line-height: 120%;
+    border-bottom: 0.4px solid #AB6CC1;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+#titulo-raEd{
+    /* padding-top: 150px; */
+}
+
+.row-como-usar-ra{
+    margin-top: 50px!important;
+}
+
+.img-realidade, .img-temp{
+    display: table-cell;
+    float: right;
+    width: 100%;
+}
+
+.texto-oque, .texto-raEd{
+    display: table-cell;
+    padding-top: 60px;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+.texto-raEd{
+    padding-right: 50px;
+}
+
+.circulo{
+    display: block;
+    background: #d6b0e6;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: static;
+}
+
+.num{ 
+    padding-top: 12px;
+    padding-left: 19px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.col-circulo{
+    max-width: 70px!important;
+}
+
+.como-usar{
+    font-family: Inter;
+    font-size: 100%;
+    font-weight: 40px;
+    line-height: normal;
+    text-align: justify;
+}
+
+.como-usar p{
+    margin-bottom: 0!important;
+}
+
+/*Inicio página Meu Progresso*/
+
+.card-progress{
+    background-color: #FAFAF5;
+    border-radius: 10px;
+    border: 2px solid #E6E6E6;
+    padding: 20px;
+    margin-top: 60px;
+    width: 750px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-progress h2{
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-top: -130px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-progress p{
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 20px;
+    color: #542066;
+    font-weight: 600;
+}
+
+.card-progress img{
+    width: 200px !important;
+    height: 179px;
+    margin-left: -86%;
+    margin-top: -60px;
+    border-radius: 10px;
+}
+
+.card-progress button, .card-lado button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #542066;
+    color: white;
+    font-size: 14px;
+}
+
+.card-progress button:hover, .card-lado button:hover{
+    background-color: #310749;
+}
+
+.card-lado{
+    background-color: #FAFAF5;
+	border-radius: 10px;
+    border: 2px solid #E6E6E6;
+	padding: 20px;
+	margin: 20px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	text-align: left;
+}
+
+/*Inicio página Temperatura (Material)*/
+.subtitulo_temp{
+    font-family: 'Newsreader', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 120%;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    letter-spacing: -0.8px;
+}
+
+.texto-temp{
+    text-align: justify;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    /* margin-left: 40px;
+    margin-right: 40px; */
+}
+
+.img-temp{
+    /* margin-bottom: 0px;
+    margin-right: -20px; */
+}
+
+.subtitulo-escalas{
+    font-family: Newsreader;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 120%; /* 48px */
+    letter-spacing: -0.8px;
+    margin-bottom: 20px;
+    /* margin-left: 40px; */
+}
+
+.texto-escalas{
+    margin-bottom: 30px;
+}
+
+.tabela{
+        width: 700px;
+        height: 38rem;
+        background: #dcbfe9;
+        margin: auto auto;
+        margin-top: 30px;
+}
+
+.txt-tabela{
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+    padding: 20px 20px;  
+}
+
+.tabela img{
+    width: 30% !important;
+}
+
+.qr-code img{
+    width: 20% !important;
+    margin-left: 39%;
+}
+/*FIM*/
