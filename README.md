@@ -5,56 +5,47 @@
 -->
 
 <h1>Telas</h1>
- 
+
 <h2>Home</h2>
 
-![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/500df121-b71c-407e-9e4c-9b54347636f1)
+![Captura de tela 2023-07-22 214145](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/48f21d88-4aa4-47d7-9559-839ebd78958a)
 
-
+ 
 <h2>RA</h2>
 
-![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/0b9c7551-8a4c-4bbd-9402-f8dd0bd532f0)
-
+![Captura de tela 2023-07-22 221556](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/24351b21-77ea-44e1-9523-af9f2eaf4ada)
 
 <h2>Materiais</h2>
 
-![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/a8254c60-57b1-4939-a849-b625afbc8b31)
-
+![Captura de tela 2023-07-22 221545](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/f0a00b70-c4a5-493d-8729-d88858c95a03)
 
 <h2>Quiz</h2>
 
-![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/0ef9a92e-3af6-4a39-b7c0-aa392e01ecf6)
-
+![Captura de tela 2023-07-22 215115](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/053df685-cfff-446d-9776-7c1c4e7025ce)
 
 <h2>Responder Quiz</h2>
 
-![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/554fe895-5651-4337-8b0c-e0bc4ba071df)
-
-
-<h2>Sobre Nós</h2>
-
-![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/1e59fd8e-edac-485f-9ba3-029e8472c1ea)
-
-
-<h2>Entrar</h2>
-
-![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/4ebb56eb-aaec-44a4-962c-d32db88e1b93)
-
-
-<h2>Criar Conta</h2>
-
-
-![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/9e3a7dc2-6d9a-4f85-8439-d04ea9320b74)
-
-
-<h2>Meu Perfil</h2>
-
-![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/fc42a14d-81e9-4d6c-8cc7-407533943f6f)
-
+![Captura de tela 2023-07-22 221516](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/8e29e7cd-5baa-4783-8f6a-e7825b4dc0ed)
 
 <h2>Resultado do Quiz</h2>
 
-![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/5fe93ba5-4f97-4fe4-b556-c75743936f9a)
+![Captura de tela 2023-07-22 221334](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/d70609ff-eac5-4b9e-bb78-e49777417997)
+
+<h2>Sobre Nós</h2>
+
+![Captura de tela 2023-07-22 215357](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/71a919e7-ab2b-47a5-85a4-91fdc45690b5)
+
+<h2>Entrar</h2>
+
+![Captura de tela 2023-07-22 221634](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/061dc7dc-39e7-4e5a-9839-a1dd3c4f4da8)
+
+<h2>Criar Conta</h2>
+
+![Captura de tela 2023-07-22 221656](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/bbf4e7a4-2691-4f2e-8d6c-78721662c526)
+
+<h2>Meu Perfil</h2>
+
+![Captura de tela 2023-07-22 221425](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/a45c1a09-80d6-43dc-8fca-ac8a42402727)
 
 
 
