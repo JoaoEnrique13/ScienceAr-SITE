@@ -7,34 +7,55 @@
 <h1>Telas</h1>
  
 <h2>Home</h2>
- <img src="https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/0f215e28-6541-4a66-a3d9-4c20dacd2f32" alt="image">
+
+![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/500df121-b71c-407e-9e4c-9b54347636f1)
+
 
 <h2>RA</h2>
-<img src="https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/58bd9a3b-af8e-4ba5-aadd-11ea882e6434" alt="image">
+
+![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/0b9c7551-8a4c-4bbd-9402-f8dd0bd532f0)
+
 
 <h2>Materiais</h2>
-<img src="https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/5f40ea44-6209-4893-a2ba-7a442006e4da" alt="image">
+
+![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/a8254c60-57b1-4939-a849-b625afbc8b31)
+
 
 <h2>Quiz</h2>
-<img src="https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/bbfabee5-8c7c-42c9-8703-c00f465da708" alt="image">
+
+![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/0ef9a92e-3af6-4a39-b7c0-aa392e01ecf6)
+
 
 <h2>Responder Quiz</h2>
-<img src="https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/5dc8f421-838c-440b-b2a3-af06e439a2bf" alt="image">
+
+![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/554fe895-5651-4337-8b0c-e0bc4ba071df)
+
 
 <h2>Sobre Nós</h2>
-<img src="https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/3ceeedd9-d7b1-41b2-83c8-bbe3b781d33a" alt="image">
+
+![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/1e59fd8e-edac-485f-9ba3-029e8472c1ea)
+
 
 <h2>Entrar</h2>
-<img src="https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/b91ba514-3af8-4cf4-a223-d4116e285dc6" alt="image">
+
+![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/4ebb56eb-aaec-44a4-962c-d32db88e1b93)
+
 
 <h2>Criar Conta</h2>
-<img src="https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/d8d69729-61b2-4aa2-bb4f-17037b945bc4" alt="image">
+
+
+![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/9e3a7dc2-6d9a-4f85-8439-d04ea9320b74)
+
 
 <h2>Meu Perfil</h2>
-<img src="https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/e7147a41-c4c9-4985-8e94-533d1730c511" alt="image">
+
+![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/fc42a14d-81e9-4d6c-8cc7-407533943f6f)
+
 
 <h2>Resultado do Quiz</h2>
-<img src="https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/b778bc40-8711-4f6c-a7bf-cbee2901c0a3" alt="image">
+
+![image](https://github.com/JoaoEnrique13/ScienceAr/assets/99426704/5fe93ba5-4f97-4fe4-b556-c75743936f9a)
+
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
